@@ -20,7 +20,7 @@ days.innerText=d;
 hours.innerHTML=h;
 minutes.innerHTML=m;
 seconds.innerHTML =s;
-    if(d===0 && h===6 && m==12 && s===0)
+    if(d===0 && h===6 && m==9 && s===0)
     {
         demo()
     }
