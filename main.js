@@ -5,7 +5,7 @@ const seconds = document.getElementById("seconds")
 
 
 function updatedate(){
-const birthdate = new Date(`december 7 2025 00:00:00`)
+const birthdate = new Date(`december  10 2025 00:00:00`)
 const currentyear = new Date()
 const BirthdayDate = birthdate - currentyear;
 const d = Math.floor(BirthdayDate / 1000 / 60 / 60 / 24)
@@ -20,7 +20,7 @@ days.innerText=d;
 hours.innerHTML=h;
 minutes.innerHTML=m;
 seconds.innerHTML =s;
-    if(d===0 && h===0 && m==0 && s===0)
+    if(d===0 && h===2 && m==7 && s===0)
     {
         demo()
     }
